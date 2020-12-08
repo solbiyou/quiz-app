@@ -32,7 +32,7 @@ const App = (() => {
   const q2 = new Question("I went to high school in ... ", ['China', 'USA', 'South Korea', 'Australia'], 3);
   const q3 = new Question("What is the instrument that I can't play? ", ['piano', 'guitar', 'clarinet', 'drums'], 2);
   const q4 = new Question("What is my favorite programming language?", ['C/C++', 'Java', 'Python', 'JavaScript'], 3);
-  const q5 = new Question("Do you like me?", ['Yes!' , 'No...'], 0);
+  const q5 = new Question("Do you wanna work with me?", ['Yes!' , 'No...'], 0);
 
   const quiz = new Quiz([q1, q2, q3, q4, q5]);
   // console.log(quiz);
